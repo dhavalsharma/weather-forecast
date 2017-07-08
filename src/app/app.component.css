@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.card {
+  padding: 16px;
+  margin-bottom: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 500ms ease-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px 10px white;
+  z-index: 2;
+}
+
+.card:hover:not(span) {
+  color: #FFAC33;
+}
+
+.date {
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.temperature {
+  margin: 5px 0 10px 0;
+  font-size: 4em;
+  color: white;
+}
+
+.icon {
+  margin-top: 10px;
+  width: 50%;
+  height: 50%;
+}
+
+.description {
+  padding-top: 8px;
+  border-top: 1px solid rgb(200, 200, 200);
+  margin: 10px 0 0 0;
+  font-size: 1.25em;
+}

@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    color: rgb(200,200,200);
+    font-family: 'Titillium Web';
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    background-color: rgb(25,35,45);
+}
