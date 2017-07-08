@@ -1,6 +1,6 @@
 # ForecastWeatherApp
 
-The application displays weather forecast for Bangalore city. Currently it only displays the date, temparature and weather.
+The application displays weather forecast for Bangalore city. Currently it only displays the date, temparature and weather. It obtains the current 5 day forecast from [Openweathermap](http://openweathermap.org/forecast5).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
 
@@ -25,7 +25,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `npm run deploy` to push the app to github pages and test it at this [url](https://dhavalsharma.github.io/weather-forecast/).
 
 ### Mixed content
-Openweathermap does not allow free access over http, therefore the browser will give a mixed content warning. If you accept the warning by clicking on right corner of [address bar](https://stackoverflow.com/a/24434461/119031) then you can see the rest of the page
+`Openweathermap` does not allow free access over http, therefore the browser will give a mixed content warning. If you accept the warning by clicking on right corner of [address bar](https://stackoverflow.com/a/24434461/119031) then you can see the rest of the page.
+
+The below demo captures the setting as well as the demo of the app.
+![Weather Forecast demo](https://github.com/dhavalsharma/weather-forecast/blob/master/docs/weather-forecast-demo.gif 'Demo')
 
 ## Further help
 
